@@ -11,7 +11,7 @@ const accessAsync = promisify(access);
 async function main() {
   const args = process.argv;
   const inputCmdIndex = args.findIndex(arg => arg === '-i' || arg === '--input');
-  const outputCmdIndex = args.findIndex(arg => arg === '-o' || arg === '---output');
+  const outputCmdIndex = args.findIndex(arg => arg === '-o' || arg === '--output');
   const input = inputCmdIndex > -1 ? args[inputCmdIndex + 1] : './main.dbn';
   const output = outputCmdIndex > -1 ? args[outputCmdIndex + 1] : './draw.svg';
   const fileExists = await checkIfFileExists(input);
