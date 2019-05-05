@@ -1,0 +1,22 @@
+{
+  "name": "dbn-compiler",
+  "version": "0.1.0",
+  "description": "DBN Lang compiler based on article \"How to be* a compiler\" by Mariko Kosaka (@kosamari)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tavaresl/dbn-compiler.git"
+  },
+  "author": "Lucas Tavares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tavaresl/dbn-compiler/issues"
+  },
+  "homepage": "https://github.com/tavaresl/dbn-compiler#readme",
+  "devDependencies": {
+    "@types/node": "^12.0.0"
+  }
+}
