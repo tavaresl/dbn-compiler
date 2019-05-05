@@ -1,4 +1,4 @@
-import { Token } from "./lexer";
+import { Token } from './tokenizer';
 
 export function parse(tokens: Token[]) {
   const AST: AST = {
